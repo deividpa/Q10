@@ -499,4 +499,10 @@ h1, h2, h3, h4, h5 {
     text-align: center;
     margin-top: 1.5rem;
   }
+  .modal-content {
+    width: 95%;
+    padding: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+  }
 }
