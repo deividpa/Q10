@@ -1,12 +1,331 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <title>Programa Partners Q10 – ¡Transforma la educación y gana más!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Q10</title>
+    <meta
+      name="description"
+      content="Conviértete en Partner Q10 y aumenta tus ingresos mientras lideras la transformación educativa en Latinoamérica."
+    />
+    <meta
+      name="keywords"
+      content="Q10, Partner, Educación, Software Académico, Monetiza, Ventas, TI, Negocios"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
+
   <body>
-    <div id="app"></div>
+    <!-- ENCABEZADO / NAVBAR -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <img 
+            src="/assets/LOGO PROGRAMA PARTNER Q10.png"
+            alt="Logo Programa Partner Q10"
+            class="logo-partner"
+          />
+        </div>
+        <div class="navbar-links">
+          <a href="#beneficios">Beneficios</a>
+          <a href="#formas">Formas de asociarte</a>
+          <a href="#contacto">Contacto</a>
+          <button class="btn-black" id="btn-open-modal-nav">¡Afíliate ahora!</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section 
+      class="hero-section"
+      style="
+        background: url('/assets/ELEMENTO3.webp') center/cover no-repeat;
+        position: relative;
+        color: #fff;
+        padding: 6rem 2rem;
+        text-align: center;
+      "
+    >
+      <div
+        style="
+          position: absolute;
+          top: 0; left: 0;
+          width: 100%; height: 100%;
+          background: rgba(0,0,0,0.9); /* Ajuste de opacidad */
+          z-index: 1;
+        "
+      ></div>
+
+      <div style="position: relative; z-index: 2; max-width: 700px; margin: 0 auto;">
+        <h1 style="font-size: 2rem; margin-bottom: 2rem;">
+          ¡Impulsa tu negocio con Q10 y genera<br />
+          ingresos de forma inteligente!
+        </h1>
+        <p style="margin-top: 3rem; line-height: 1.4;">
+          Sé parte de la evolución educativa en Latinoamérica con el software líder
+          en gestión académica. Accede a comisiones, exclusividad y respaldo internacional.
+        </p>
+        <button class="btn-orange" id="btn-open-modal-hero">Quiero ser Partner</button>
+      </div>
+    </section>
+
+    <!-- SECCIÓN DE “POR QUÉ SER PARTNER” / BENEFICIOS -->
+    <section class="section-why" id="beneficios">
+      <h2 style="margin-bottom: 1.5rem;">¿Por qué ser un Partner Q10?</h2>
+      <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; color: #555;">
+        Alinea tu visión de crecimiento con más de 3 millones de usuarios activos,
+        presencia en 19 países y +3.000 clientes satisfechos. Con Q10, tu rentabilidad
+        se eleva mientras transformas la educación.
+      </p>
+
+      <div class="benefits-container">
+        <div class="benefit-card">
+          <img src="/assets/ELEMENTO1.webp" alt="Elemento decorativo" />
+          <h3>Crecimiento económico</h3>
+          <p>
+            Suma ingresos de manera constante al presentar Q10 a instituciones
+            ávidas de soluciones académicas eficientes.
+          </p>
+        </div>
+        <div class="benefit-card">
+          <img src="/assets/ELEMENTO5.webp" alt="Elemento decorativo" />
+          <h3>Red de contactos global</h3>
+          <p>
+            Amplía tus oportunidades rodeándote de profesionales y expertos
+            que comparten la misión de innovar en el sector educativo.
+          </p>
+        </div>
+        <div class="benefit-card">
+          <img src="/assets/ELEMENTO1.webp" alt="Elemento decorativo" />
+          <h3>Respaldo internacional</h3>
+          <p>
+            Sé parte del software líder en Latinoamérica y ofrece a tus clientes
+            la experiencia de una marca confiable y reconocida.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN FORMAS DE ASOCIARTE -->
+    <section class="section-partner-types" id="formas">
+      <div class="section-header">
+        <h2>Formas de asociarte</h2>
+        <div class="section-intro-container">
+          <p class="section-intro">
+            Elige el camino que mejor se adapte a tu perfil de negocios y empieza a
+            capitalizar el crecimiento del sector educativo.
+          </p>
+        </div>
+      </div>
+      <div class="partner-types-container">
+        <div class="partner-type-card">
+          <h3>Refiere</h3>
+          <p>
+            Gana un <strong>15% de comisión</strong> en cada venta lograda.
+            Comparte el contacto y nosotros nos encargamos del resto.
+          </p>
+          <p class="sub-info">Sin cuotas anuales ni inversión inicial.</p>
+          <button class="btn-black btn-open-modal-type">Afíliate ahora</button>
+        </div>
+
+        <div class="partner-type-card">
+          <h3>Revende</h3>
+          <p>
+            Acceso a <strong>descuentos exclusivos</strong> en licencias
+            Q10 y soporte prioritario para tus clientes.
+          </p>
+          <ul>
+            <li>30% menos en ventas nuevas y renovaciones</li>
+            <li>Descuentos en planes de facturación</li>
+            <li>Capacitación integral sobre Q10</li>
+            <li>Gestión completa de facturación</li>
+          </ul>
+          <p class="sub-info">99 USD / Año</p>
+          <button class="btn-black btn-open-modal-type">Afíliate ahora</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN QUIÉN PUEDE SER PARTNER -->
+    <section class="section-who-can">
+      <h2>¿Quién puede ser Partner Q10?</h2>
+      <div class="who-can-container">
+        <div class="who-can-item">
+          <img
+            src="/assets/ELEMENTO7.webp"
+            alt="Consultora de tecnología"
+            class="icon-who-can"
+          />
+          <h3>Empresas de Tecnología</h3>
+          <p>
+            Orientadas al desarrollo de software, hardware y servicios TI con
+            interés en expandir su portafolio en el sector educativo.
+          </p>
+        </div>
+        <div class="who-can-item">
+          <img
+            src="/assets/ELEMENTO8.webp"
+            alt="Elemento hexágono"
+            class="icon-who-can"
+          />
+          <h3>Consultores Independientes</h3>
+          <p>
+            Profesionales o freelancers de la educación y tecnología dispuestos
+            a ofrecer soluciones robustas y a generar ingresos adicionales.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN PASOS: INFORMATE, CAPACITATE, GANA -->
+    <section class="section-steps">
+      <h2>Conviértete en Partner Q10</h2>
+      <div class="steps-container">
+        <div class="step-item">
+          <h3>Infórmate</h3>
+          <p>
+            Te contamos todo sobre Q10, sus beneficios y oportunidades de
+            negocio, para que tomes la mejor decisión.
+          </p>
+        </div>
+        <div class="step-item">
+          <h3>Capacítate</h3>
+          <p>
+            Domina el sistema y aprende técnicas de venta y posicionamiento
+            que te ayudarán a cerrar negociaciones con agilidad.
+          </p>
+        </div>
+        <div class="step-item">
+          <h3>Gana</h3>
+          <p>
+            Aumenta tus ingresos con cada venta, suscripción y renovación
+            lograda, mientras refuerzas tu reputación en el sector.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CTA FINAL -->
+    <section class="section-cta-final">
+      <h2>¡Haz crecer tus ingresos y tu reputación con Q10!</h2>
+      <p>Forma parte de nuestra comunidad de aliados y vive la educación del futuro.</p>
+      <button class="btn-black" id="btn-open-modal-final">Ser Partner ahora</button>
+    </section>
+
+    <footer class="footer" id="contacto">
+      <div class="footer-grid">
+        <!-- Columna 1: Brand y descripción -->
+        <div class="footer-brand">
+          <img
+            src="/assets/LOGO PROGRAMA PARTNER Q10 BLANCO.png"
+            alt="Q10 Partners Logo Footer"
+            style="width: 160px; margin-bottom: 1rem;"
+          />
+          <p>
+            Q10 Partners te ofrece la oportunidad de crecer en el mundo de la educación digital,
+            con el respaldo de un software líder en Latinoamérica.
+          </p>
+        </div>
+    
+        <!-- Columna 2: Información Legal -->
+        <div class="footer-legal">
+          <h4>Información Legal</h4>
+          <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Aviso de tratamiento de datos</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>© 2025 Q10 Partners. Transformando la educación, un clic a la vez.</p>
+      </div>
+    </footer>    
+
+    <!-- BOTÓN DE WHATSAPP -->
+    <a
+      href="https://wa.me/573137181411?text=¡Hola!%20Me%20gustaría%20saber%20más%20sobre%20el%20Programa%20Partner%20Q10"
+      target="_blank"
+      class="whatsapp-float"
+      title="Habla con un asesor vía WhatsApp"
+    >
+      <img
+        src="/assets/whatsapp.svg"
+        alt="Icono WhatsApp"
+        class="whatsapp-icon"
+      />
+    </a>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal-affiliate">
+      <div class="modal-content modal-compact">
+        <span class="modal-close" id="modal-close">&times;</span>
+        
+        <h2 class="modal-title">Únete a Q10 Partners</h2>
+        <p class="modal-subtitle" style="color: #666;">
+          Genera ingresos y marca la diferencia en el ámbito educativo.
+        </p>
+
+        <form class="modal-form">
+          <fieldset class="modal-fieldset">
+            <legend>Datos de contacto</legend>
+            <div class="row">
+              <div class="input-group">
+                <label for="modal-names">Nombres *</label>
+                <input type="text" id="modal-names" required />
+              </div>
+              <div class="input-group">
+                <label for="modal-lastname">Apellidos *</label>
+                <input type="text" id="modal-lastname" required />
+              </div>
+              <div class="input-group">
+                <label for="modal-country">País *</label>
+                <input type="text" id="modal-country" placeholder="Colombia" required />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group">
+                <label for="modal-email">Correo electrónico *</label>
+                <input type="email" id="modal-email" required />
+              </div>
+              <div class="input-group">
+                <label for="modal-phone">Celular *</label>
+                <input type="text" id="modal-phone" required />
+              </div>
+            </div>
+          </fieldset>
+
+          <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem;">
+            <label for="modal-company">Nombre de la empresa (opcional)</label>
+            <input type="text" id="modal-company" />
+
+            <label for="modal-motives">¿Por qué deseas ser Partner? *</label>
+            <textarea
+              id="modal-motives"
+              rows="2"
+              required
+              placeholder="Impulsar mi negocio, ampliar mi cartera, innovar en educación..."
+            ></textarea>
+          </div>
+
+          <!-- Términos y condiciones -->
+          <div class="modal-terms">
+            <input type="checkbox" id="modal-accept-terms" required />
+            <label for="modal-accept-terms">
+              Acepto los <a href="#">términos de uso</a> y autorizo el
+              <a href="#">tratamiento de mis datos</a>.
+            </label>
+          </div>
+
+          <!-- Botón de envío -->
+          <button type="submit" class="btn-orange modal-submit-btn">
+            Enviar mi solicitud
+          </button>
+        </form>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
